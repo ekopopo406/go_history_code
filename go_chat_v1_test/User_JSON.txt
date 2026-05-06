@@ -1,0 +1,41 @@
+{
+     "[go]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+
+    // gopls 语言服务器配置（最重要）
+    "gopls": {
+        "ui.semanticTokens": true,           // 更好的语义高亮
+        "formatting.gofumpt": true,          // 使用 gofumpt 更严格格式化
+        "ui.completion.usePlaceholders": true,
+        "staticcheck": true,
+        "vulncheck": "Imports",              // 漏洞检查
+        "analyses": {
+            "unusedvariable": true,
+            "shadow": true
+        }
+    },
+
+    // 全局编辑器设置（Go 友好）
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.rulers": [100],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    // Go 扩展其他常用设置
+    "go.lintTool": "staticcheck",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.testOnSave": false,
+
+    // 调试相关
+    "go.delveConfig": {
+        "debugAdapter": "dlv-dap"
+    }
+}
