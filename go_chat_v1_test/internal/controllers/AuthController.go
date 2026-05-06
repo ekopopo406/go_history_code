@@ -59,7 +59,6 @@ func (a *AuthController) Refresh() gin.HandlerFunc {
 		lang := c.Request.URL.Query().Get("lang")
 		var inputs loginUserRefreshInput
 		var respondMsg string
-
 		ctx := c.Request.Context()
 
 		if err := c.ShouldBindJSON(&inputs); err != nil {

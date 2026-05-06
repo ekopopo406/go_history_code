@@ -7,20 +7,20 @@
         }
     },
 
-    // gopls ÓïÑÔ·þÎñÆ÷ÅäÖÃ£¨×îÖØÒª£©
+    // gopls ï¿½ï¿½ï¿½Ô·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½
     "gopls": {
-        "ui.semanticTokens": true,           // ¸üºÃµÄÓïÒå¸ßÁÁ
-        "formatting.gofumpt": true,          // Ê¹ÓÃ gofumpt ¸üÑÏ¸ñ¸ñÊ½»¯
+        "ui.semanticTokens": true,           // ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        "formatting.gofumpt": true,          // Ê¹ï¿½ï¿½ gofumpt ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ê½ï¿½ï¿½
         "ui.completion.usePlaceholders": true,
         "staticcheck": true,
-        "vulncheck": "Imports",              // Â©¶´¼ì²é
+        "vulncheck": "Imports",              // Â©ï¿½ï¿½ï¿½ï¿½ï¿½
         "analyses": {
             "unusedvariable": true,
             "shadow": true
         }
     },
 
-    // È«¾Ö±à¼­Æ÷ÉèÖÃ£¨Go ÓÑºÃ£©
+    // È«ï¿½Ö±à¼­ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Go ï¿½ÑºÃ£ï¿½
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
@@ -28,14 +28,18 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
 
-    // Go À©Õ¹ÆäËû³£ÓÃÉèÖÃ
+    // Go ï¿½ï¿½Õ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     "go.lintTool": "staticcheck",
     "go.lintOnSave": "package",
     "go.vetOnSave": "package",
     "go.testOnSave": false,
 
-    // µ÷ÊÔÏà¹Ø
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     "go.delveConfig": {
         "debugAdapter": "dlv-dap"
     }
+    "go.toolsEnvVars": {
+    "GOPROXY": "https://goproxy.cn,direct",
+    "GO111MODULE": "on"
+  }
 }
