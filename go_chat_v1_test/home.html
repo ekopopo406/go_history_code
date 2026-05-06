@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chat Example</title>
+<script type="text/javascript">
+window.onload = function () {
+    var conn;
+    var msg = document.getElementById("msg");
+    var log = document.getElementById("log");
+    console.log("提交表单，消息内容:", msg.value);
+    function appendLog(item) {
+        var doScroll = log.scrollTop > log.scrollHeight - log.clientHeight - 1;
+        log.appendChild(item);
+        if (doScroll) {
+            log.scrollTop = log.scrollHeight - log.clientHeight;
+        }
+    }
+
+
+function sendMessage(roomId, text) {
+    ws.send(JSON.stringify({
+        type: "chat",
+        room_id: roomId,
+        content: {
+            text: text,
+            timestamp: Date.now()
+        }
+    }));
+}
+
+function sendPrivateMessage(toUserId, text) {
+    ws.send(JSON.stringify({
+        type: "private",
+        to_user: toUserId,
+        content: {
+            text: text,
+            timestamp: Date.now()
+        }
+    }));
+}
+
+
+    document.getElementById("submit").onclick = function () {
+        if (!conn) {
+            alert("Connection not established.");
+            return false;
+        }
+        if (!msg.value) {
+            alert("Message cannot be empty.");
+            return false;
+        }
+         if (!conn) {
+        console.error("❌ conn 为空");
+        console.log("Connection not established.");
+        return false;
+        }
+        
+        if (conn.readyState !== WebSocket.OPEN) {
+            console.error("❌ 连接状态不是 OPEN，当前状态:", conn.readyState);
+             console.log("Connection is not open. State: " + conn.readyState);
+            return false;
+        }
+        
+        if (!msg.value) {
+             console.log("Message cannot be empty.");
+            return false;
+        }
+        
+        console.log("📤 发送消息:", msg.value);
+        conn.send(msg.value);
+        console.log("✅ 消息已发送");
+        msg.value = "";
+        return false;
+    };
+
+    if (window["WebSocket"]) {
+        conn = new WebSocket("ws://" + document.location.host + "/ws?user_id=123");
+        conn.onclose = function (evt) {
+            var item = document.createElement("div");
+            item.innerHTML = "<b>Connection closed.</b>";
+            appendLog(item);
+        };
+        conn.onmessage = function (evt) {
+            var messages = evt.data.split('\n');
+            for (var i = 0; i < messages.length; i++) {
+                var item = document.createElement("div");
+                item.innerText = messages[i];
+                console.log(messages[i]);
+                appendLog(item);
+            }
+        };
+    } else {
+        var item = document.createElement("div");
+        item.innerHTML = "<b>Your browser does not support WebSockets.</b>";
+        appendLog(item);
+    }
+};
+
+
+</script>
+<style type="text/css">
+html {
+    overflow: hidden;
+}
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: gray;
+}
+
+#log {
+    background: white;
+    margin: 0;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+    right: 0.5em;
+    bottom: 3em;
+    overflow: auto;
+}
+
+#form {
+    padding: 0 0.5em 0 0.5em;
+    margin: 0;
+    position: absolute;
+    bottom: 1em;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+</style>
+</head>
+<body>
+<div>
+<form id="form">
+    <input id="submit"type="button" value="submit messages" />
+    <input type="text" id="msg" size="64" autofocus />
+</form></div>
+<div style="float:top" id="log"></div>
+</body>
+</html>

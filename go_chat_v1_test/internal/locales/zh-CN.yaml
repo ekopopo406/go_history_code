@@ -1,0 +1,18 @@
+# 字段验证错误
+validation: 
+  required: "%s为必填字段"
+  min: "%s长度或值必须大于等于%s"
+  max: "%s长度或值必须小于等于%s"
+  email: "%s必须是有效的邮箱地址"
+  eqfield: "%s必须等于%s"
+  gte: "%s必须大于或等于%s"
+  lte: "%s必须小于或等于%s"
+  
+fields: 
+  page: "分页"
+  email: "邮箱"
+
+errors:
+  DUPLIC_PHONE: "电话号码已存在"
+  RAND_CODE_EXPIRE: "验证码已过期"
+  USER_NOT_FOUND_IN_DB: "数据库中未找到用户"

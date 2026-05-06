@@ -1,0 +1,113 @@
+{"level":"INFO","ts":"2026-04-21T16:44:12.760+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:5885"}
+{"level":"INFO","ts":"2026-04-21T16:44:14.782+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:5907"}
+{"level":"INFO","ts":"2026-04-21T16:52:15.263+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:6068"}
+{"level":"INFO","ts":"2026-04-21T16:52:33.170+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:6081"}
+{"level":"INFO","ts":"2026-04-21T16:56:16.855+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:6165"}
+{"level":"INFO","ts":"2026-04-21T16:57:30.937+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:6198"}
+{"level":"INFO","ts":"2026-04-29T23:13:37.554+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:14:21.407+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:11684"}
+{"level":"INFO","ts":"2026-04-29T23:14:55.484+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:11714"}
+{"level":"INFO","ts":"2026-04-29T23:19:04.740+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:19:04.740+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:24:28.828+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:24:40.375+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:12318"}
+{"level":"INFO","ts":"2026-04-29T23:26:13.302+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:31:55.360+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:13374"}
+{"level":"INFO","ts":"2026-04-29T23:37:01.116+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:37:27.456+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:37:39.633+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:14041"}
+{"level":"INFO","ts":"2026-04-29T23:41:07.702+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:41:07.702+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:41:12.341+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:45:15.408+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:45:15.408+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:47:53.755+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:47:58.116+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:1265"}
+{"level":"INFO","ts":"2026-04-29T23:48:11.140+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:48:11.140+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:48:18.601+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:50:02.482+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:1393"}
+{"level":"INFO","ts":"2026-04-29T23:56:00.986+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:56:07.462+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:1659"}
+{"level":"INFO","ts":"2026-04-29T23:56:59.788+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-29T23:57:07.833+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:1729"}
+{"level":"INFO","ts":"2026-04-30T00:00:31.437+0800","caller":"container/wire_gen.go:69","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:00:34.961+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:1894"}
+{"level":"INFO","ts":"2026-04-30T00:22:21.248+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:22:27.395+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:3084"}
+{"level":"INFO","ts":"2026-04-30T00:22:27.395+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:26:47.747+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:3330"}
+{"level":"INFO","ts":"2026-04-30T00:26:47.747+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:31:27.797+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:3636"}
+{"level":"INFO","ts":"2026-04-30T00:31:27.797+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:33:04.921+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:3730"}
+{"level":"INFO","ts":"2026-04-30T00:33:04.922+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:33:48.039+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:33:48.039+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:34:22.061+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:34:48.957+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:3838"}
+{"level":"INFO","ts":"2026-04-30T00:34:52.077+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:35:34.240+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:3897"}
+{"level":"INFO","ts":"2026-04-30T00:35:34.240+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:39:52.750+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:40:47.300+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:4161"}
+{"level":"INFO","ts":"2026-04-30T00:40:47.301+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:40:49.925+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:4166"}
+{"level":"INFO","ts":"2026-04-30T00:40:49.925+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:41:48.889+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:41:54.457+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:4233"}
+{"level":"INFO","ts":"2026-04-30T00:41:54.458+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:43:52.588+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:45:07.446+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:45:07.446+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:45:12.689+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:45:17.871+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:4457"}
+{"level":"INFO","ts":"2026-04-30T00:45:17.871+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:47:19.470+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:4545"}
+{"level":"INFO","ts":"2026-04-30T00:48:12.703+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T00:48:34.672+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:4620"}
+{"level":"INFO","ts":"2026-04-30T00:48:34.673+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T00:56:45.692+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T01:03:10.053+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:5351"}
+{"level":"INFO","ts":"2026-04-30T01:03:10.053+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T01:07:39.459+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T01:07:56.172+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:5604"}
+{"level":"INFO","ts":"2026-04-30T01:07:56.172+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T01:09:44.067+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:5691"}
+{"level":"INFO","ts":"2026-04-30T01:10:14.452+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T01:10:14.452+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:5708"}
+{"level":"INFO","ts":"2026-04-30T01:10:15.118+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T01:11:29.603+0800","caller":"container/wire_gen.go:71","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T01:11:40.209+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:5793"}
+{"level":"INFO","ts":"2026-04-30T01:11:40.210+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T01:11:42.731+0800","caller":"controllers/WebSocketController.go:23","msg":"收到 WebSocket 请求: %s","logger":"Ws","remoteAddr":"127.0.0.1:5795"}
+{"level":"INFO","ts":"2026-04-30T01:11:42.731+0800","caller":"controllers/WebSocketController.go:23","msg":"WebSocket 连接建立完成: userID=%s","logger":"Ws","userID":"123"}
+{"level":"INFO","ts":"2026-04-30T04:45:09.339+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-04-30T04:45:09.339+0800","caller":"container/wire_gen.go:99","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-05T22:17:15.098+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T02:53:43.454+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T02:53:43.454+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T02:59:54.439+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:18:01.855+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:18:01.856+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:18:06.901+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:21:45.147+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:21:45.147+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:21:50.196+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:44:26.722+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:44:26.722+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:44:31.441+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:54:19.031+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:54:19.031+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:54:23.820+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:57:04.831+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:57:04.831+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T03:57:06.979+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T04:02:49.534+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T04:02:49.534+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T04:04:08.389+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T04:04:49.853+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T04:04:49.853+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T04:06:50.833+0800","caller":"container/wire_gen.go:72","msg":"WebSocket Hub 已启动在 :8080","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T06:32:41.822+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 开始优雅关闭...","logger":"Ws"}
+{"level":"INFO","ts":"2026-05-06T06:32:41.822+0800","caller":"container/wire_gen.go:100","msg":"[WebSocket Hub] 优雅关闭完成","logger":"Ws"}

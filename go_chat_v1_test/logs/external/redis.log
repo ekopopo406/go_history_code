@@ -1,0 +1,43 @@
+{"level":"INFO","ts":"2026-05-06T03:02:52.257+0800","caller":"controllers/UserController.go:176","msg":"Redis PubSub subscriber started","logger":"redis","channels":["chat.room.*","notification.user.*","system.broadcast"]}
+{"level":"INFO","ts":"2026-05-06T03:03:14.905+0800","caller":"controllers/UserController.go:176","msg":"Redis PubSub subscriber started","logger":"redis","channels":["chat.room.*","notification.user.*","system.broadcast"]}
+{"level":"WARN","ts":"2026-05-06T03:18:01.857+0800","caller":"runtime/asm_amd64.s:1693","msg":"PubSub channel closed","logger":"redis"}
+{"level":"WARN","ts":"2026-05-06T03:18:01.858+0800","caller":"runtime/asm_amd64.s:1693","msg":"PubSub channel closed","logger":"redis"}
+{"level":"INFO","ts":"2026-05-06T03:18:36.945+0800","caller":"controllers/UserController.go:176","msg":"Redis PubSub subscriber started","logger":"redis","channels":["chat.room.*","notification.user.*","system.broadcast"]}
+{"level":"WARN","ts":"2026-05-06T03:21:45.148+0800","caller":"runtime/asm_amd64.s:1693","msg":"PubSub channel closed","logger":"redis"}
+{"level":"INFO","ts":"2026-05-06T03:23:11.291+0800","caller":"controllers/UserController.go:212","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T03:25:18.684+0800","caller":"controllers/UserController.go:212","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T03:45:31.112+0800","caller":"controllers/UserController.go:174","msg":"Redis PubSub subscriber started","logger":"redis","channels":["chat.room.*","notification.user.*","system.broadcast"]}
+{"level":"INFO","ts":"2026-05-06T03:45:42.262+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:45:42.262+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:45:42.263+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T03:45:44.569+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T03:45:44.569+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:45:44.569+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:45:48.961+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T03:45:48.961+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:45:48.961+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:45:59.961+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:45:59.961+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:45:59.961+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T03:46:50.299+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:46:50.299+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:46:50.299+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T03:47:34.956+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.101","payload":"test"}
+{"level":"INFO","ts":"2026-05-06T03:47:34.956+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.101","payload":"test"}
+{"level":"INFO","ts":"2026-05-06T03:47:47.841+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:47:47.841+0800","caller":"impl/RedisServiceImpl.go:156","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T03:47:47.841+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"WARN","ts":"2026-05-06T03:54:19.032+0800","caller":"runtime/asm_amd64.s:1693","msg":"PubSub channel closed","logger":"redis"}
+{"level":"INFO","ts":"2026-05-06T03:56:57.330+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T03:57:21.495+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T04:04:20.086+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T04:06:57.192+0800","caller":"controllers/UserController.go:174","msg":"Redis PubSub subscriber started","logger":"redis","channels":["chat.room.*","notification.user.*","system.broadcast"]}
+{"level":"INFO","ts":"2026-05-06T04:07:09.473+0800","caller":"impl/RedisServiceImpl.go:161","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T04:07:09.473+0800","caller":"impl/RedisServiceImpl.go:161","msg":"Received chat.room. message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T04:07:09.474+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T04:07:21.206+0800","caller":"impl/RedisServiceImpl.go:161","msg":"Received message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T04:07:21.206+0800","caller":"impl/RedisServiceImpl.go:161","msg":"Received chat.room. message","logger":"redis","channel":"chat.room.1001","payload":"{\"user_id\":123,\"message\":\"Hello everyone!\"}"}
+{"level":"INFO","ts":"2026-05-06T04:07:21.206+0800","caller":"controllers/UserController.go:204","msg":"Message published","logger":"redis","channel":"chat.room.1001"}
+{"level":"INFO","ts":"2026-05-06T04:07:27.185+0800","caller":"runtime/asm_amd64.s:1693","msg":"PubSub subscriber shutting down...","logger":"redis"}
+{"level":"WARN","ts":"2026-05-06T04:07:27.185+0800","caller":"runtime/asm_amd64.s:1693","msg":"PubSub channel closed","logger":"redis"}
+{"level":"ERROR","ts":"2026-05-06T04:07:27.185+0800","caller":"impl/RedisServiceImpl.go:159","msg":"PubSub close error","logger":"redis","error":"redis: client is closed"}

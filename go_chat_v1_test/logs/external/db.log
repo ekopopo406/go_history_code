@@ -1,0 +1,1 @@
+{"level":"ERROR","ts":"2026-05-05T22:34:08.791+0800","caller":"repository/UserRepositoryImpl.go:42","msg":"trace","logger":"db","component":"gorm","error":"record not found","elapsed":0.0106663,"rows":0,"sql":"SELECT * FROM `user_basic` WHERE email = '1@1.com' AND `user_basic`.`deleted_at` IS NULL ORDER BY `user_basic`.`id` LIMIT 1"}

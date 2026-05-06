@@ -1,0 +1,76 @@
+# 应用配置
+app:
+  name: "go_chat_v1_test"
+  version: "1.0.0"
+  port: "8080"
+  mode: "development"  # development, production, test
+
+# 数据库配置
+database:
+  driver: "mysql"
+  host: "localhost"
+  port: 3306
+  username: "root"
+  password: "123123"
+  dbname: "ginchat"
+  max_connections: 100
+  idle_connections: 10
+  ssl_mode: "disable"
+
+# Redis配置
+redis:
+  host: "localhost"
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 10
+
+# 日志配置
+log:
+  level: "info"
+  encoding: "json"
+  
+  # 日志文件路径（空字符串表示输出到控制台）
+  app_log_path: "./logs/app/app.log"
+  db_log_path: "./logs/external/db.log"
+  redis_log_path: "./logs/external/redis.log"
+  kafka_log_path: "./logs/external/kafka.log"
+  access_log_path: "./logs/access/access.log"
+  ws_log_path: "./logs/ws/ws.log"
+  error_log_path: "./logs/app/error.log"
+  
+  # 轮转配置
+  max_size: 100 # MB 每个日志文件最大MB
+  max_backups: 7 #保留旧文件最大个数
+  max_age: 30 # 保留旧文件最大天数
+  compress: true #是否压缩
+  
+  zapGorm:
+    level: "info"
+
+jwt: 
+  JWT_ACCESS_SECRET: q1w2e3r4
+  JWT_REFRESH_SECRET: r4e3w2q1
+  JWT_ACCESS_TTL: "15m" #mins
+  JWT_REFRESH_TTL: "168h" #days
+
+kafka: 
+  seedBorker: 192.168.248.135:9092
+  producerBatchMaxBytes: 1_000_000
+  topics: "user_topic, chat_room_topic"
+  consumerGroupID: 
+
+node:
+  id: "node-1"
+  shard_count: 16
+
+websocket:
+  write_wait: 10s
+  pong_wait: 60s
+  ping_period: 54s
+  max_message_size: 524288
+  max_hubs: 16      # 最大分片数
+  idle_hub_timeout: 300  # 空闲超时（秒）
+
+monitoring:
+  prometheus_port: 9090
